@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     445254845860088833       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Johans Wokwi design"      # Project title
+  author:       "Johan Praveen"      # Your name
+  discord:      "Primo_Donut"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "my project connects the chip to the lghts so i can create whatever i want with the right switches."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,24 +16,26 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  CLK: "1 its just a straight wire"
+  ui[0]: "0 it oes to a not gate"
+  ui[1]: "0 it oes to a not gate"
+  ui[2]: "0 it oes to a not gate"
+  ui[3]: "0 it oes to a not gate"
+  ui[4]: "1 goes to an and gate"
+  ui[5]: "1 goes to an and gate"
+  ui[6]: "1 its just a straight wire"
+  ui[7]: "0 it goes to a not gate"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  CLK: "it goes to the dot"
+  uo[0]: "1 it goes to the top most line in the eight"
+  uo[1]: "1 it goes to the top right line"
+  uo[2]: "1 it goes to the the bottom right line"
+  uo[3]: "1 it goes to the bottom line"
+  uo[4]: "1 goes to the bottom left line"
+  uo[5]: "1 goes to the top left line"
+  uo[6]: "1 goes to the middle line"
+  uo[7]: "1 goes to the dot"
 
   # Bidirectional pins
   uio[0]: ""
