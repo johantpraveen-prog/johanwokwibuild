@@ -16,7 +16,6 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  CLK: "1 its just a straight wire"
   ui[0]: "0 it oes to a not gate"
   ui[1]: "0 it oes to a not gate"
   ui[2]: "0 it oes to a not gate"
@@ -27,7 +26,6 @@ pinout:
   ui[7]: "0 it goes to a not gate"
 
   # Outputs
-  CLK: "it goes to the dot"
   uo[0]: "1 it goes to the top most line in the eight"
   uo[1]: "1 it goes to the top right line"
   uo[2]: "1 it goes to the the bottom right line"
